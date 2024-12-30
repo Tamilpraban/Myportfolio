@@ -211,7 +211,7 @@ body {
 }
 
 .abt-res {
-    width: 100%;
+    width: 70%;
     height: auto;
     max-width: 492px;
     max-height: 492px;
@@ -1269,3 +1269,12 @@ body {
         color: #000;
     }
 }
+
+
+ @media (max-width: 1440px) and (min-width: 800px) {
+    .img{   
+       max-width: 390px;
+       opacity: 1;
+    }
+
+} 
